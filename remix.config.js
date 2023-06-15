@@ -10,6 +10,7 @@ module.exports = {
   // assetsBuildDirectory: "public/build",
   // publicPath: "/build/",
 
+  tailwind: true,
   serverDependenciesToBundle: ["nanoid"],
 
   future: {

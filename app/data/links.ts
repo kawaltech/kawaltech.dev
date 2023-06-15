@@ -38,7 +38,7 @@ export const dataLinks: Links = [
     slug: "kawaljodoh",
     url: "https://kawaljodoh.id",
     colorForeground: "#FFFFFF",
-    colorBackground: "#6A2B29",
+    colorBackground: "#991b1b",
     description: "Mengawal jodoh hingga ke pelaminan.",
   },
   {
@@ -46,9 +46,9 @@ export const dataLinks: Links = [
     title: "Kawal Masjid",
     slug: "kawalmasjid",
     url: "https://kawalmasj.id",
-    colorForeground: "#FFFFFF",
-    colorBackground: "#212E29",
-    description: "",
+    colorForeground: "#212E29",
+    colorBackground: "#5CB163",
+    description: "Mengawal infaq masjid.",
   },
   {
     id: nanoid(),

@@ -15,12 +15,23 @@ export async function loader() {
 
 export default function Route() {
   return (
-    <main>
-      <ul>
+    <main className="container m-auto">
+      <ul className="m-4 space-y-2">
         {dataLinks.map((link) => {
           return (
             <li key={link.id}>
-              <h2>{link.title}</h2>
+              <a
+                href={link.url}
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  color: link.colorForeground,
+                  backgroundColor: link.colorBackground,
+                }}
+                className="block rounded p-4 font-bold hover:opacity-90"
+              >
+                <h2>{link.title}</h2>
+              </a>
             </li>
           );
         })}
